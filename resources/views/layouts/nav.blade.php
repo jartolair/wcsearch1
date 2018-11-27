@@ -13,8 +13,8 @@
 							<li><a title="team" href="#equipo">Quienes somos?</a></li>
 							<li><a title="opiniones" href="#opiniones">Opiniones</a></li>
 							<li><a title="contact" href="#contacto">Contacto</a></li>
-							<li><a href="#" class="btn">Iniciar sesion</a></li>
-							<li><a href="#" class="btn btn-primary">Registrarse</a></li>
+							<li><a href="/inicioSesion" class="btn">Iniciar sesion</a></li>
+							<li><a href="/registro" class="btn btn-primary">Registrarse</a></li>
 						</ul>
 					</nav>
 				</div>

@@ -15,4 +15,12 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/inicioSesion', function () {
+    return view('login');
+});
+
+Route::get('/registro', function () {
+    return view('registro');
+});
+
 Route::get('/email', 'EmailController@enviarConsulta');
