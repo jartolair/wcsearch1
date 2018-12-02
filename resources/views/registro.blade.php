@@ -23,10 +23,12 @@
 						<p id="errorTel" style="color: red;" hidden>telefono incorrecto</p>
 
 				      	<input type="text" class="form-control" id="calle" name="calle" placeholder="Calle" style="height: auto"/>
-				      	<input type="text" class="form-control" id="postal" name="postal" placeholder="Cod. postal" required style="height: auto" oninput="comprobarPostal()"/>
-				      	<p id="errorPostal" style="color: red;" hidden>Cod Postal incorrecto</p>
-				      	<select class="form-control" name="municipio" required>
+				      	<input type="text" class="form-control" id="postal" name="postal" placeholder="Cod. postal" required style="height: auto" oninput="buscarMunicipio(this.value)">
+				      	<select class="form-control" name="municipio" id="municipio" required>
 				      		<option value="azkoiti">Azkoiti</option>
+				      		<option value="azpeiti">Azpeiti</option>
+				      		<option value="zestoa">Zestoa</option>
+				      		<option value="zumaia">Zumaia</option>
 				      		<option value="donosti">Donosti</option>
 				      	</select><br>
 				      	<input type="checkbox" class="form-control" id="newsletter" name="newsletter" style="height: auto"/> Newsletter<br><br>
